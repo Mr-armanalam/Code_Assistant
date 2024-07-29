@@ -19,7 +19,7 @@ export const Navbar =()=>{
           </div>
 
           <div>
-            <div className="flex">
+            <div className="flex hidebtnS">
               
               <Link href="https://github.com/Mr-armanalam">
                 <button
@@ -41,7 +41,7 @@ export const Navbar =()=>{
               </button>
             </div>
 
-            <FaBars className="sm:hidden" />
+            <FaBars className="flex hidebtnM mr-4 " size={30} />
           </div>
         </div>
       </>

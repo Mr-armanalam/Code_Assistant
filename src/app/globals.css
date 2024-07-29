@@ -40,3 +40,13 @@ body {
 .hh{
   color:#ffffff20;
 }
+@media (max-width:500px) {
+  .hidebtnS{
+    display: none;
+  }
+}
+@media (min-width:500px) {
+  .hidebtnM{
+    display: none;
+  }
+}
