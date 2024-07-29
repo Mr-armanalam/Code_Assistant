@@ -23,7 +23,7 @@ export const OptionalQuestion = ({ optionalQhandler }) => {
         </p>
       </div>
 
-      <div className="flex flex-row sm:justify-center md:justify-between flex-wrap overflow-auto scrollbar max-h-[40vh] ">
+      <div className="flex flex-row sm:ml-auto md:justify-between flex-wrap overflow-auto scrollbar max-h-[40vh] ">
         <div
           onClick={() => optionalQhandler(0)}
           className="bg-[#09090B] p-4 cursor-pointer rounded-lg border border-gray-800
